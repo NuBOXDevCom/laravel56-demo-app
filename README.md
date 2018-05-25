@@ -2,6 +2,10 @@
 
 A Laravel App demonstration with Image Gallery
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/NuBOXDevCom/laravel56-demo-app/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/NuBOXDevCom/laravel56-demo-app/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/NuBOXDevCom/laravel56-demo-app/badges/build.png?b=master)](https://scrutinizer-ci.com/g/NuBOXDevCom/laravel56-demo-app/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/NuBOXDevCom/laravel56-demo-app/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+
 ## Getting Started
 
 ### Installing
