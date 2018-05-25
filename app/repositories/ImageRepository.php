@@ -31,7 +31,7 @@ class ImageRepository
      */
     public function getImagesForCategory(string $slug)
     {
-        return Image::latestWithUser()->whereHas('category', function ($query) use ($slug) {
+        return Image::latestWithUser()->whereHas('category', function($query) use ($slug) {
             $query->whereSlug($slug);
         })->paginate(config('app.pagination'));
     }
@@ -42,7 +42,7 @@ class ImageRepository
      */
     public function getImagesForUser(int $id)
     {
-        return Image::latestWithUser()->whereHas('user', function ($query) use ($id) {
+        return Image::latestWithUser()->whereHas('user', function($query) use ($id) {
             $query->whereId($id);
         })->paginate(config('app.pagination'));
     }

@@ -15,10 +15,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Blade::if('admin', function () {
+        Blade::if ('admin', function() {
             return auth()->check() && auth()->user()->role === 'admin';
         });
-        Blade::if('adminOrOwner', function ($id) {
+        Blade::if ('adminOrOwner', function($id) {
             return auth()->check() && (auth()->id() === $id || auth()->user()->role === 'admin');
         });
         AbstractPaginator::defaultView('pagination::bootstrap-4');
